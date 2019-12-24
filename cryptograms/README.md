@@ -1,5 +1,5 @@
 # Cryptograms
-tThis application is a simple cryptogram game I decided to write while learning React.
+This application is a simple cryptogram game I decided to write while learning React.
 
 ## Available Scripts
 
