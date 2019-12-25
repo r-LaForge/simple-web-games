@@ -1,5 +1,5 @@
 export interface GameLetter {
-  value: string;
+  value?: string;
   placeholder: string;
 }
 

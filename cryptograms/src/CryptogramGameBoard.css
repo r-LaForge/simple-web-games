@@ -1,0 +1,44 @@
+.game-board {
+    margin: 1rem;
+    padding: 1rem;
+    background: #FFFFFF;
+    border: 1px solid #FFFEFE;
+    box-sizing: border-box;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.game-pieces {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game-word {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+
+.game-word > div {
+    padding-right: 8px;
+}
+
+.game-piece {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.game-piece-block {
+    display: inline-block;
+}
+
+.game-input {
+    width: 24px;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+
+.game-letter {
+    width: 24px;
+    text-align: center;
+}
